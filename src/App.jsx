@@ -8,6 +8,10 @@ import EventHandlingExample from "./core concepts/06-eventhandling/EventHandling
 import SimpleForm from "./core concepts/06-eventhandling/SimpleForm";
 import ListExample from "./core concepts/07-list/ListExample";
 import TaskManager from "./core concepts/08-taskmanager/TaskManager";
+import UseStateExample from "./hooks/01-usestate/UseStateExample";
+import UseReducerExample from "./hooks/02-usereducer/UseReducerExample";
+import UseActionState from "./hooks/03-useactionstate/UseActionState";
+import UseFormstatusExample from "./hooks/04-useformstatus/UseFormStatus";
 function App() {
   // return <HelloWorld/>
 // return <Greeting/>
@@ -18,6 +22,10 @@ function App() {
 //return <EventHandlingExample/>
 //return <SimpleForm/>
 //return <ListExample/>
-return <TaskManager/>
+//return <TaskManager/>
+//return <UseStateExample/>
+//return <UseReducerExample/>
+//return <UseActionState/>
+return <UseFormstatusExample/>
 }
 export default App
