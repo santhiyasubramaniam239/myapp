@@ -12,6 +12,12 @@ import UseStateExample from "./hooks/01-usestate/UseStateExample";
 import UseReducerExample from "./hooks/02-usereducer/UseReducerExample";
 import UseActionState from "./hooks/03-useactionstate/UseActionState";
 import UseFormstatusExample from "./hooks/04-useformstatus/UseFormStatus";
+import UseEffectExample from "./hooks/05-useeffect/UseEffectExample";
+import UseLayoutEffectExample from "./hooks/06-uselayouteffect/UseLayoutEffect";
+import UseContextExample from "./hooks/07-usecontext/UseContextExample";
+import UseRefExample from "./hooks/08-useref/UseRefExample";
+import UseMemoExample from "./hooks/09-usememo/UseMemoExample";
+import UseCallbackExample from "./hooks/10-usecallback/UseCallbackExample";
 function App() {
   // return <HelloWorld/>
 // return <Greeting/>
@@ -26,6 +32,12 @@ function App() {
 //return <UseStateExample/>
 //return <UseReducerExample/>
 //return <UseActionState/>
-return <UseFormstatusExample/>
+//return <UseFormstatusExample/>
+//return <UseEffectExample/>
+//return <UseLayoutEffectExample/>
+//return <UseContextExample/>
+//return <UseRefExample/>
+//return <UseMemoExample/>
+return <UseCallbackExample/>
 }
 export default App
